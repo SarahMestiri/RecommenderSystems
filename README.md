@@ -22,6 +22,11 @@ The basic idea behind collaborative filtering is that people who agreed in certa
 
 ### Building a recommender system using collaborative filtering (with Resources)
 
+To build a recommender system, you have a large set of libraries that you can use, and each one of them has its advantages and drawbacks.
+You can find a good Quora answer about the topic here:
+
+* [What is the best open source package to build a recommender system with Python - Quora](https://www.quora.com/What-is-the-best-open-source-package-to-build-a-recommender-system-in-Python/answer/Xavier-Amatriain?srid=hpTX9)
+
 [Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
 
 
