@@ -31,3 +31,5 @@ You can find a good Quora answer about the topic here:
 
 
 ### Available Datasets
+
+* [Recommendation and Ratings Public Data Sets For Machine Learning](https://gist.github.com/entaroadun/1653794)
