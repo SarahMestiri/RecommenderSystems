@@ -11,5 +11,18 @@ The magic of recommender systems is more than that: they not only ***provide you
 
 Let's discover that by learning more about one of the most famous methods for recommender systems: *Collaborative Filtering (CF)*!
 
-## Defining Collaborative Filtering 
+Note: If you want to get an idea about the different types of recommender systems. check this article [5 Types of Recommenders](https://www.datasciencecentral.com/profiles/blogs/5-types-of-recommenders).
+
+## Collaborative Filtering 
 The basic idea behind collaborative filtering is that people who agreed in certain evalution patters in the past, are likely to agree again in the future.
+
+### Memory-based Collaborative Filtering
+
+### Model-based Collaborative Filtering
+
+### Building a recommender system using collaborative filtering (with Resources)
+
+[Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
+
+
+### Available Datasets
