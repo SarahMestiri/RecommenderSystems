@@ -59,3 +59,4 @@ Start with a small dataset then scale it to see what's the difference between re
 
 ## Reference
 * **Recommender Systems -The Textbook** by Aggarwal, Charu C.
+* [Customers expect personalized recommendations - salesforce report 2016](https://www.salesforce.com/blog/2017/07/customers-expectations-in-age-of-the-customer.html)
