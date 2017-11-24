@@ -35,6 +35,8 @@ Some of the most accurate methods used in recommender systems are based on model
 #### Latent Factor Models
 Latent Factor Models leverage dimensionality reduction methods in order to estimate the ratings matrix. It uses the fact of high correlation between rows and columns of the ratings matrix which results in the approximation by a ***low-rank matrix*** and it's possible to obtain the fully specified low-rank matrix because of the redundancies in the data, even with a smaller subset of the original ratings matrix.
 
+A good explanation of Matrix Factorization used by Latent Factor Models in order to reduce the dimension of the matrix is [here](http://nicolas-hug.com/blog/matrix_facto_1) by Nicolas Hug, Surprise Library developer.
+
 ### Building a recommender system using collaborative filtering (with Resources)
 
 To build a recommender system, you have a large set of libraries that you can use, and each one of them has its advantages and drawbacks.
@@ -46,8 +48,8 @@ Start with a small dataset then scale it to see what's the difference between re
 
 * [Implementation of movie recommendations using Neighborhood methods - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
 * [Implementation of movie recommendations using ALS and SGD - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/)
+* [Implementation of movie recommendations - Spark & Flask ](https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw)
 * [Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
-
 
 ### Available Datasets
 
