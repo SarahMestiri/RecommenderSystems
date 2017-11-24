@@ -40,7 +40,10 @@ You can find a good Quora answer about the topic here:
 
 * [What is the best open source package to build a recommender system with Python - Quora](https://www.quora.com/What-is-the-best-open-source-package-to-build-a-recommender-system-in-Python/answer/Xavier-Amatriain?srid=hpTX9)
 
-[Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
+Start with a small dataset then scale it to see what's the difference between results. Also, because if you choose a big dataset it's possible to get a MemoryError like it happened to me when I used the whole dataset of book-crossing. To scale the dataset, I would suggest to use Spark as it has a strong performance.
+
+* [Implementation example of movie recommendations using Neighborhood methods - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
+* [Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
 
 
 ### Available Datasets
