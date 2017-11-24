@@ -32,6 +32,8 @@ Model-based Collaborative Filtering are more advanced methods that are considere
 
 Some of the most accurate methods used in recommender systems are based on model-based techniques in general, and one of the most effective methods among them is **latent factor models**.
 
+#### Latent Factor Models
+Latent Factor Models leverage dimensionality reduction methods in order to estimate the ratings matrix. It uses the fact of high correlation between rows and columns of the ratings matrix which results in the approximation by a ***low-rank matrix*** and it's possible to obtain the fully specified low-rank matrix because of the redundancies in the data, even with a smaller subset of the original ratings matrix.
 
 ### Building a recommender system using collaborative filtering (with Resources)
 
@@ -42,7 +44,8 @@ You can find a good Quora answer about the topic here:
 
 Start with a small dataset then scale it to see what's the difference between results. Also, because if you choose a big dataset it's possible to get a MemoryError like it happened to me when I used the whole dataset of book-crossing. To scale the dataset, I would suggest to use Spark as it has a strong performance.
 
-* [Implementation example of movie recommendations using Neighborhood methods - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
+* [Implementation of movie recommendations using Neighborhood methods - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
+* [Implementation of movie recommendations using ALS and SGD - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/)
 * [Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
 
 
@@ -51,5 +54,5 @@ Start with a small dataset then scale it to see what's the difference between re
 * [Recommendation and Ratings Public Data Sets For Machine Learning](https://gist.github.com/entaroadun/1653794)
 * [The nine must have datasets for investigating Recommender Systems](https://gab41.lab41.org/the-nine-must-have-datasets-for-investigating-recommender-systems-ce9421bf981c)
 
-### Reference:
+## Reference
 * **Recommender Systems -The Textbook** by Aggarwal, Charu C.
