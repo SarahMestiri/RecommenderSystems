@@ -22,9 +22,16 @@ Memory-based collaborative Filtering is one of the earliest methods developed fo
    Similar users are considered to have similar ratings on the same item.
 2. **Item-based** collaborative filtering:<br>
    Similars items are considered to have similar ratings by the same user. <br>
-   
-Although they both have similar results, Item-based CF is often preferred because it uses the user's **own** ratings. Besides, it's more stable with changes => adding new user occurs more than adding new item => more similarity calculations and update of the ratings matrix.
+
+Neighborhood-based methods can be viewed as generalizations of k-nearest neighbor classifiers (KNN).
+
+Although both types (user-based & item-based) have similar results, Item-based CF is often preferred because it uses the user's **own** ratings. Besides, it's more stable with changes => adding new user occurs more than adding new item => more similarity calculations and update of the ratings matrix.
 ### Model-based Collaborative Filtering
+
+Model-based Collaborative Filtering are more advanced methods that are considered more effective than memory-based collaborative filtering. They offer space-efficiency and they able to deliver accurate results even with a sparse matrix.
+
+Some of the most accurate methods used in recommender systems are based on model-based techniques in general, and one of the most effective methods among them is **latent factor models**.
+
 
 ### Building a recommender system using collaborative filtering (with Resources)
 
@@ -40,3 +47,6 @@ You can find a good Quora answer about the topic here:
 
 * [Recommendation and Ratings Public Data Sets For Machine Learning](https://gist.github.com/entaroadun/1653794)
 * [The nine must have datasets for investigating Recommender Systems](https://gab41.lab41.org/the-nine-must-have-datasets-for-investigating-recommender-systems-ce9421bf981c)
+
+### Reference:
+* **Recommender Systems -The Textbook** by Aggarwal, Charu C.
