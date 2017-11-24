@@ -17,7 +17,13 @@ Note: If you want to get an idea about the different types of recommender system
 The basic idea behind collaborative filtering is that people who agreed in certain evalution patters in the past, are likely to agree again in the future.
 
 ### Memory-based Collaborative Filtering
-
+Memory-based collaborative Filtering is one of the earliest methods developed for collaborative filtering, it's also called, Neighborhood-based collaborative filtering. We can distinguich 2 primary types in neighborhood methods:
+1. **User-based** collaborative filtering:<br>
+   Similar users are considered to have similar ratings on the same item.
+2. **Item-based** collaborative filtering:<br>
+   Similars items are considered to have similar ratings by the same user. <br>
+   
+Although they both have similar results, Item-based CF is often preferred because it uses the user's **own** ratings. Besides, it's more stable with changes => adding new user occurs more than adding new item => more similarity calculations and update of the ratings matrix.
 ### Model-based Collaborative Filtering
 
 ### Building a recommender system using collaborative filtering (with Resources)
@@ -33,3 +39,4 @@ You can find a good Quora answer about the topic here:
 ### Available Datasets
 
 * [Recommendation and Ratings Public Data Sets For Machine Learning](https://gist.github.com/entaroadun/1653794)
+* [The nine must have datasets for investigating Recommender Systems](https://gab41.lab41.org/the-nine-must-have-datasets-for-investigating-recommender-systems-ce9421bf981c)
