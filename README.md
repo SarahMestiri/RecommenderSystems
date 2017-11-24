@@ -49,6 +49,7 @@ Start with a small dataset then scale it to see what's the difference between re
 * [Implementation of movie recommendations using Neighborhood methods - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
 * [Implementation of movie recommendations using ALS and SGD - Python and Scikit-Learn](http://blog.ethanrosenthal.com/2016/01/09/explicit-matrix-factorization-sgd-als/)
 * [Implementation of movie recommendations - Spark & Flask ](https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw)
+* [Deploying Machine Learning Models in production as APIs](https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/)
 * [Recommender Systems through Collaborative Filtering - Implementation with Surprise Lib](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
 
 ### Available Datasets
