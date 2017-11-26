@@ -62,4 +62,4 @@ Start with a small dataset then scale it to see what's the difference between re
 * [Customers expect personalized recommendations - salesforce report 2016](https://www.salesforce.com/blog/2017/07/customers-expectations-in-age-of-the-customer.html)
 
 ## Note
-Originally I gave this as a talk in [Data Natives](www.datanatives.io) 2017. Slides are [here](https://www.slideshare.net/secret/ihqcoDDwkSQrAo)
+Originally I gave this as a talk in [Data Natives](www.datanatives.io) 2017. Slides are [here](https://docs.google.com/presentation/d/1CNuPPrgJCk8uaeCnkyyPNbMto4iTHFhRYRENbJ4ZYYg/edit?usp=sharing)
