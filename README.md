@@ -60,6 +60,7 @@ Start with a small dataset then scale it to see what's the difference between re
 ## Reference
 * **Recommender Systems -The Textbook** by Aggarwal, Charu C.
 * [Customers expect personalized recommendations - salesforce report 2016](https://www.salesforce.com/blog/2017/07/customers-expectations-in-age-of-the-customer.html)
+* [Amazon item-to-item Collaborative Filtering](https://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf)
 
 ## Note
 Originally I gave this as a talk in [Data Natives](www.datanatives.io) 2017. Slides are [here](https://docs.google.com/presentation/d/1CNuPPrgJCk8uaeCnkyyPNbMto4iTHFhRYRENbJ4ZYYg/edit?usp=sharing)
